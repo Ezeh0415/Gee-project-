@@ -1,0 +1,59 @@
+.user-invitation {
+    border: solid 1px var(--color-silver);
+    padding: 15px;
+    border-radius: 10px;
+    margin:5% 0 0 70px;
+    height: 160px;
+}
+
+.user-invitation h2 {
+    margin: -5px 0 0 0;
+    border-bottom: solid 1px var(--color-silver);
+}
+
+.input-div {
+    border-bottom: solid 1px var(--color-silver);
+    padding-bottom: 5px;
+}
+
+.user-invitation input {
+    margin: 20px 0 0 0;
+    width: 300px;
+    border: solid 1px var(--color-silver);
+    border-radius: 5px ;
+}
+
+.user-invitation input::placeholder {
+  color: #999999;
+}
+
+.user-invitation button {
+    border-radius: 7px;
+    background-color: rgb(65, 63, 63);
+    color: var(--color-white);
+    border: none;
+}
+
+.mail-output {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px var(--color-silver);
+    padding-bottom: 5px;
+}
+
+.mail-output h3 i {
+    font-size: small;
+    color: goldenrod;
+}
+
+.mail-output p {
+    margin: -13px 0 0 30px;
+    font-size: small;
+}
+
+.delete-btn button{
+    background-color: var(--color-silver);
+    border: none;
+    color:#999999;
+}

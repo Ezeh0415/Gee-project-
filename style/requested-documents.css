@@ -1,0 +1,24 @@
+.img-text  p {
+    font-size: 13px;
+}
+
+.requested-documents {
+    border: solid 1px var(--color-silver);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 3rem 0 0 4rem;
+    width: 94%;
+}
+
+.requested-documents p {
+    margin-top: -10px;
+}
+
+.requested-documents button {
+    padding: 5px  10px 5px 10px;
+    border: none;
+    border-radius: 12px ;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}

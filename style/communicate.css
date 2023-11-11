@@ -1,0 +1,19 @@
+.search-section {
+  display: flex;
+  justify-content: end;
+  margin: 20px 0 0 0;
+}
+
+.search-div {
+    border-bottom: solid 1px ;
+    padding-bottom: 3px;
+}
+
+.search-div input{
+ border: none;
+}
+
+.search-div input:focus{
+    outline: none;
+    border: none;
+   }

@@ -1,0 +1,25 @@
+.custom-q {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: var(--color-blue); /* Customize the color */
+    margin: 0 0 0 50px;
+}
+
+.faq-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0 0 25px;
+    border-top: solid 1px ;
+    padding-top: 3px;
+}
+
+.faq-text blockquote {
+    font-size: 14px;
+}
+
+.faq-text i {
+    margin-top: -13px;
+    font-size: 14px;
+}

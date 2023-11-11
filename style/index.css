@@ -1,0 +1,167 @@
+:root {
+    --color-blue:blue;
+    --color-black:black;
+    --color-white:white;
+    --color-silver:silver;
+}
+
+
+nav {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.name-logo {
+    display: flex;
+    align-items: center;
+}
+
+.name-logo p {
+    margin:3px 0 0 10px;
+}
+
+.link-space ul {
+    display: flex;
+    align-items: center;
+}
+
+.link-space ul li {
+   list-style-type: none;
+   margin-left: 40px;
+}
+
+.btn-section button {
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 3px 6px 3px 6px;
+    margin: 0 0 0 5px;
+}
+
+.btn-section button:first-of-type {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.header-section .img-div img {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.header-section .img-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: var(--color-white);
+}
+
+.header-section .img-text p {
+    margin-top: -15px;
+}
+
+/* body section */
+
+.body-section {
+    display: flex;
+}
+
+.page-link {
+    display: flex;
+    align-items: center;
+}
+
+.page-link ul {
+    list-style-type: none;
+}
+
+.page-link ul li {
+    margin-top: 30px;
+}
+
+.page-link ul li a {
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.page-link ul li a:hover {
+   color: var(--color-blue);
+}
+
+.page-link span {
+    margin-top: -15px;
+}
+
+.page-link b {
+    border-bottom: solid 1px ;
+    margin: 15px 0 0 40px;
+}
+
+.page-link b a {
+    text-decoration: none;
+}
+
+.page-link b  i {
+    font-size: 10px;
+    color: var(--color-blue);
+}
+
+
+/* out put */
+
+.form-section form {
+    display: flex;
+}
+
+.inputs {
+    margin: 0 0 0 40px;
+    border-left: solid 1px var(--color-silver);
+    width: 65%;
+    height: 370px;
+}
+
+.form-section {
+    border: solid 1px var(--color-silver);
+    margin: 10% 0 0 60px;
+    width: 93%;
+    height: 150px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.form-section h2 {
+    margin: -5px 0 5px 0;
+    border-bottom: solid 1px var(--color-silver);
+}
+
+.form-section form {
+    margin-top: 20px;
+}
+
+.form-section form p i {
+    font-size: xx-small;
+    color: var(--color-blue);
+}
+
+.form-section form input {
+    width: 250px;
+    margin: -5px 0 0 15px;
+    border: solid 2px var(--color-silver);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.save-btn {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0 5rem;
+}
+
+.save-btn button {
+    width: 100px;
+    padding: 5px 0 5px 0;
+    border-radius: 30px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: none;
+}
