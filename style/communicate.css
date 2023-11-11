@@ -1,3 +1,9 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
 .search-section {
   display: flex;
   justify-content: end;
@@ -16,4 +22,94 @@
 .search-div input:focus{
     outline: none;
     border: none;
+   }
+
+   .input-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 740px;
+   }
+
+   .input-flex-div {
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 4px ;
+   }
+
+   .input-sec input {
+    width: 650px;
+    border: none;
+   }
+
+   .input-sec input:focus{
+    outline: none;
+    border: none;
+   }
+
+   /* icon style */
+
+   .atachment-icon {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    padding: 5px;
+    border-radius: 50%;
+   }
+
+   .send-icon {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    padding: 5px;
+    border-radius: 50%;
+   }
+
+
+   .atachment-icon i, .send-icon i {
+    cursor: pointer;
+   }
+
+   @media screen   and (min-width:280px)  and (max-width:950px) {
+
+    .inputs {
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between;
+      width: 100%;
+      margin: 0 0 0 1px;
+    }
+
+    .main-input-div {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .input-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border: none;
+     }
+
+     .input-flex-div {
+      display: flex;
+      align-items: center;
+      border: solid 1px;
+      border-radius: 10px;
+      padding: 4px ;
+      width: 90%;
+     }
+
+     .input-sec {
+      width: 100%;
+     }
+
+     .input-sec input {
+      width: 100%;
+      border:none;
+     }
    }

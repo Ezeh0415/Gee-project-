@@ -3,7 +3,7 @@
     padding: 15px;
     border-radius: 10px;
     margin:5% 0 0 70px;
-    height: 160px;
+    height: 220px;
 }
 
 .user-invitation h2 {
@@ -56,4 +56,85 @@
     background-color: var(--color-silver);
     border: none;
     color:#999999;
+}
+
+.save-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.save-btns button {
+    width: 110px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.mobiles {
+    display: none;
+}
+
+@media screen   and (min-width:280px)  and (max-width:950px) {
+    .user-invitation h2 {
+        /* margin: -5px 0 0 0; */
+        text-align: center;
+        border: none;
+    }
+
+    .mobiles {
+        display: block;
+    }
+
+    .mobiles h2 {
+        margin-left: 40px;
+    }
+
+    .input-div {
+        border-bottom: solid 1px var(--color-black);
+        padding-bottom: 20px;
+    }
+
+    .user-invitation input {
+        margin: 20px 0 0 0;
+        width: 90%;
+        border: solid 1px var(--color-silver);
+        border-radius: 5px ;
+    }
+
+    .user-invitation button {
+        border-radius: 7px;
+        background-color: rgb(65, 63, 63);
+        color: var(--color-white);
+        border: none;
+        width: 60px;
+    }
+
+    .mail-output h3 i {
+        font-size: medium;
+        color: goldenrod;
+    }
+
+    .mail-output p {
+        margin: -13px 0 0 30px;
+        font-size: medium;
+    }
+
+    .delete-btn button{
+        background-color: var(--color-silver);
+        border: none;
+        color:#999999;
+        width:90px;
+        padding: 5px;
+    }
+
+    .save-btns button {
+        width: 110px;
+        padding: 4px;
+        border-radius: 10px;
+        background-color: var(--color-black);
+        color: var(--color-white);
+    }
 }

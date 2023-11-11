@@ -22,3 +22,33 @@
     background-color: var(--color-black);
     color: var(--color-white);
 }
+
+.mobile-nav-icon,.mobile-nav{
+    display: "none";
+}
+
+@media screen   and (min-width:280px)  and (max-width:950px) {
+    body {
+        padding: 5px;
+    }
+
+    .mobile-nav-icon,.mobile-nav{
+        display: block;
+    }
+
+    .inputs {
+        border: none;
+        width: 98%;
+        margin: 0rem 0 0 0rem;
+        padding: 10px;
+    }
+
+    .requested-documents {
+        border: solid 1px var(--color-black);
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        margin: 1rem 0 0 0rem;
+        width: 97%;
+    }
+}

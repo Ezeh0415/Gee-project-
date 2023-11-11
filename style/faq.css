@@ -23,3 +23,23 @@
     margin-top: -13px;
     font-size: 14px;
 }
+ 
+.inputs .mobile {
+    display: none;
+}
+
+@media screen   and (min-width:280px)  and (max-width:950px) {
+    .search-section {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .inputs .mobile {
+        display: block;
+    }
+
+    .img-text {
+        display: none;
+    }
+}

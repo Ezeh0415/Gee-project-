@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="../style/index.css">
     <link rel="stylesheet" href="/style/requested-documents.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="offline/fontawesome-free-6.4.0-web/css/all.css">
+    <title>Requested documents</title>
 </head>
 <body>
     <!-- nav section  -->
@@ -24,6 +25,12 @@
         <div class="btn-section">
             <button>Logout</button>
             <button>ENG</button>
+        </div>
+
+          <!-- mobile icon for nav -->
+          <div class="mobile-nav-icon">
+            <i id="nav-show-icon" class="fa-solid fa-bars" onclick="navShow()"></i>
+            <i id="nav-hide-icon" class="fa-solid fa-x" onclick="navHide()"></i>
         </div>
     </nav>
     <!-- header section -->
@@ -59,7 +66,40 @@
                </ul>
             </span>
         </div>
+        <!-- mobile nav bar section  -->
+        <div id="display-div">
+            <div class="mobile-nav">
+                <div class="mobile-page-link">
+                    <div class="project-email">
+                        <p>mail@skybureau.co</p>
+                    </div>
+                    <div class="project-add">
+                        <input type="text" id="prject" name="project" placeholder="Add your project" />
+                    </div>
+                    <div class="project-links">
+                        <p>logout</p>
+                        <p> <i class="fas fa-plus"></i> <a href="#">Add Project</a></p>
+                    </div>
+                    <div class="page-links">
+                        <h2>My project</h2>
+                         <ul>
+                             <li><a href="/index.html">Project Information</a></li>
+                             <li><a href="/requested-documents.html">Requested documents</a></li>
+                             <li><a href="/user-management.html">User management</a></li>
+                             <li><a href="/communicate.html">Communicate</a></li>
+                             <li> <a href="/faq.html">FAQ</a></li>
+                         </ul>
+                    </div>
+                    <div>
+                        <h2>Fraud reporting</h2>
+                    </div>
+                 </div>
+            </div>
+        </div>
         <div class="inputs">
+            <div class="mobile">
+                <h2>Requested Documents</h2>
+            </div>
              <div class="requested-documents">
                 <h2>Download for Listing application</h2>
                 <p>Please download the documents required for application fill it out and then upload it</p>
@@ -67,5 +107,6 @@
              </div>
         </div>
     </div>
+    <script src="/script/script.js"></script>
 </body>
 </html>
