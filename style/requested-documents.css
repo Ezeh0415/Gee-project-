@@ -49,6 +49,25 @@
         padding: 10px;
         text-align: center;
         margin: 1rem 0 0 0rem;
-        width: 97%;
+        width: 94%;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .requested-documents {
+        border: solid 1px var(--color-black);
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        margin: 1rem 0 0 0rem;
+        width: 90%;
+    }
+
+    .requested-documents h2 {
+        font-size: medium;
+    }
+
+    .requested-documents p {
+        font-size: small;
     }
 }

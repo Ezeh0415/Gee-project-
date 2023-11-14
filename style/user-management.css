@@ -138,3 +138,43 @@
         color: var(--color-white);
     }
 }
+
+@media screen and (max-width:280px)  {
+
+    .user-invitation {
+        width: 90%;
+        margin: 0 0 0 2.2rem;
+    }
+    .user-invitation h2 {
+        font-size: medium;
+    }
+
+    .user-invitation input {
+        margin: 20px 0 0 0;
+        width: 72%;
+        border: solid 1px var(--color-silver);
+        border-radius: 5px ;
+    }
+
+    .user-invitation input::placeholder {
+        font-size: xx-small;
+    }
+
+    .user-invitation button {
+        border-radius: 7px;
+        background-color: rgb(65, 63, 63);
+        color: var(--color-white);
+        border: none;
+        width: 50px;
+    }
+
+    .mail-output h3 i {
+        font-size: x-small;
+        color: goldenrod;
+    }
+
+    .mail-output p {
+        margin: -13px 0 0 30px;
+        font-size:small;
+    }
+}

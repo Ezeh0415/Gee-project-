@@ -333,11 +333,211 @@ nav {
     .save-btn button {
         width: 200px;
         padding: 5px 0 5px 0;
+        margin: 15px 0 0 0;
         border-radius: 30px;
         background-color: var(--color-black);
         color: var(--color-white);
         border: none;
         font-size: x-large;
     }
+
+}
+
+@media screen and (min-width:280px) and (max-width:600px) {
+    /* mobile nav section */
+
+    #display-div {
+        display: none;
+    }
+
+    .mobile-nav-icon,.mobile-nav{
+        display: block;
+    }
+
+    .mobile-nav-icon i {
+        font-weight: bolder;
+    }
+
+    .mobile-nav {
+        display: flex;
+        flex-direction: column;
+        border: solid 1px white;
+        position: fixed;
+        background-color: var(--color-white);
+        top: 8%;
+        width: 90%;
+        left: 1rem;
+        padding: 7px;
+    }
+    
+    .mobile-page-link ul {
+        list-style-type: none;
+    }
+
+    .project-email p {
+        text-align: center;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .project-add {
+        margin: -8px 0 0 13px;
+        width: 93%;
+    }
+
+    .project-add input {
+        width: 95%;
+        border: solid 2px var(--color-blue);
+        padding: 9px;
+        border-radius: 9px;
+    }
+
+    .project-add input:focus{
+        outline: none;
+        border: solid 2px var(--color-blue);
+       }
+
+    .project-links {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px 0 21px;
+        margin: -7px 0 0 0;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .page-links {
+        border-top: solid 1px ;
+        width: 98%;
+    }
+
+    .page-links ul {
+        margin: -7px 0 0 0;
+    }
+
+    .page-links ul li {
+        margin-top: 7px;
+    }
+
+    .page-links ul li a {
+        text-decoration: none;
+        color: var(--color-black);
+        font-weight: 600;
+        font-size: larger;
+    }
+
+    .page-links ul li a:hover {
+        text-decoration: underline;
+    }
+
+/* mobile nav section end */
+
+}
+
+@media screen and (max-width:280px) {
+      /* mobile nav section */
+
+      #display-div {
+        display: none;
+    }
+
+    .mobile-nav-icon,.mobile-nav{
+        display: block;
+    }
+
+    .mobile-nav-icon i {
+        font-weight: bolder;
+    }
+
+    .mobile-nav {
+        display: flex;
+        flex-direction: column;
+        border: solid 1px white;
+        position: fixed;
+        background-color: var(--color-white);
+        top: 8%;
+        width: 90%;
+        left: 2px;
+        padding: 7px;
+    }
+    
+    .mobile-page-link ul {
+        list-style-type: none;
+    }
+
+    .project-email p {
+        text-align: center;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .project-add {
+        margin: -8px 0 0 13px;
+        width: 93%;
+    }
+
+    .project-add input {
+        width: 95%;
+        border: solid 2px var(--color-blue);
+        padding: 9px;
+        border-radius: 9px;
+    }
+
+    .project-add input:focus{
+        outline: none;
+        border: solid 2px var(--color-blue);
+       }
+
+    .project-links {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5px 0 21px;
+        margin: -7px 0 0 0;
+        font-size:small;
+        font-weight: bold;
+    }
+
+    .page-links {
+        border-top: solid 1px ;
+        width: 98%;
+    }
+
+    .page-links ul {
+        margin: -7px 0 0 0;
+    }
+
+    .page-links ul li {
+        margin-top: 7px;
+    }
+
+    .page-links ul li a {
+        text-decoration: none;
+        color: var(--color-black);
+        font-weight: 600;
+        font-size: larger;
+    }
+
+    .page-links ul li a:hover {
+        text-decoration: underline;
+    }
+
+/* mobile nav section end */
+
+.form-section {
+    border: none;
+    margin: 2% 0 20px 38px;
+    width: 95%;
+    height: 180px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-section form input {
+    width: 85%;
+    margin: -50px 0 0 15px;
+    border: solid 2px var(--color-silver);
+    border-radius: 7px;
+    padding: 5px;
+}
 
 }
